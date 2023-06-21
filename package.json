@@ -1,0 +1,35 @@
+{
+    "name": "nuxt3-auth-example",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@formkit/icons": "^0.16.5",
+        "@formkit/nuxt": "^0.16.5",
+        "@formkit/themes": "^0.16.5",
+        "@sfxcode/formkit-primevue": "^1.1.5",
+        "@sfxcode/nuxt-primevue": "^1.1.8",
+        "@types/bcryptjs": "^2.4.2",
+        "bcryptjs": "^2.4.3",
+        "cookie-signature": "^1.2.1",
+        "primeicons": "^6.0.1",
+        "primevue": "^3.29.2"
+    },
+    "devDependencies": {
+        "@nuxt/eslint-config": "^0.1.1",
+        "@types/cookie-signature": "^1.1.0",
+        "@unocss/nuxt": "^0.52.7",
+        "eslint": "^8.41.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nuxt": "^3.5.2"
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix"
+    }
+}
